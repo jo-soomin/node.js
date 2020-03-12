@@ -1,0 +1,15 @@
+pm2 
+
+npm install pm2 -g --> 다운
+
+pm2 start main.js --> 실행
+
+pm2 monit --> 현재 pm2에 의해 실행되는 프로그램이 보임
+
+pm2 list --> 현재 실행중인 프로세스의 list
+
+pm2 stop main --> 해당 프로세스를 끄고싶다
+
+pm2 start main.js --watch  --> 코드를 바꾸고 나서 server를 껏다 킬 필요없이 새로고침만 해주면 반영됨
+
+pm2 log --> 에러 및 정보를 화면에 보여줌
