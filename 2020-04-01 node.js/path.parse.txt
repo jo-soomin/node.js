@@ -1,0 +1,2 @@
+참고 홈페이지
+https://nodejs.org/api/path.html#path_path_parse_path
