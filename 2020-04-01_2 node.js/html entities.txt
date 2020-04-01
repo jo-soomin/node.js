@@ -1,0 +1,5 @@
+script의 <>를 웹브라우저가 해석하는것이 아니라 
+<> 문자 자체로 사용하기 위해서는
+html entites 활용할것! ex) <script> --> &lt; script $gt;
+
+https://www.w3schools.com/html/html_entities.asp

@@ -1,0 +1,17 @@
+sanitize-html : 출력 보안. -> 웹브라우저의 입력값에 태그가 있으면 태그를 지워버림
+sanitize-html 모듈 설치법
+
+npm init -> npm install -S sanitize-html
+
+참고 홈페이지
+https://www.npmjs.com/package/sanitize-html
+
+특정 태그를 허용하기 위해서는 다음과 같이 하시오.
+
+clean = sanitizeHtml(dirty, {
+  allowedTags: [ 'b', 'i', 'em', 'strong', 'a' ],
+  allowedAttributes: {
+    'a': [ 'href' ]
+  },
+  allowedIframeHostnames: ['www.youtube.com']
+});
